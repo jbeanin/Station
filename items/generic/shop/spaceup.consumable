@@ -1,0 +1,17 @@
+{
+  "itemName" : "spaceup",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "spaceup.png",
+  "description" : "Tastes like a hull breach in your mouth.",
+  "shortdescription" : "Space-Up",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

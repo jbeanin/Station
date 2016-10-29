@@ -1,0 +1,98 @@
+{
+  "objectName" : "hotdrinksmachine",
+  "colonyTags" : ["human","humanbunker","commerce"],
+  "rarity" : "Common",
+  "description" : "Hot drinks for the soul.",
+  "shortdescription" : "Hot Drinks Machine",
+  "race" : "human",
+  "category" : "station",
+  "price" : 108,
+  "lightColor" : [124, 162, 55],
+  "printable" : true,
+
+  "apexDescription" : "This machine smells vaguely of burnt bananas.",
+  "avianDescription" : "This machine glows with an extraordinary amount of warmth.",
+  "floranDescription" : "Burning coffee good for makeshift weapon.",
+  "glitchDescription" : "Terrified. Where do the cups come from?.",
+  "humanDescription" : "Scalding hot drinks, possibly radioactive.",
+  "hylotlDescription" : "Hot drinks, incredibly hot drinks.",
+  "novakidDescription" : "Drinks to match mah' body tempature.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Hot Drinks Machine",
+        "subtitle" : " Hot Drinks!"
+      }
+    },
+    "buyFactor" : 0.8,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "robustcoffee" },
+	  { "item" : "tea" },
+	  { "item" : "hotcocoa" }
+    ]
+  },
+
+  "inventoryIcon" : "hotdrinksmachineicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "hotdrinksmachineleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "hotdrinksmachineleftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "hotdrinksmachineright.png:<color>.<frame>", "fullbright" : true }, { "image" : "hotdrinksmachinerightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}
+

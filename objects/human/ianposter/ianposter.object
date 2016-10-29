@@ -1,0 +1,33 @@
+{
+  "objectName" : "ianposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Portrait of Ian",
+  "description" : "The Captain the station deserves.",
+  "race" : "human",
+
+  "apexDescription" : "The station deserves less.",
+  "avianDescription" : "A creature of great merit.",
+  "floranDescription" : "A good meal.",
+  "glitchDescription" : "Indignation. A relic of a failed rebellion.",
+  "humanDescription" : "Mans best friend.",
+  "hylotlDescription" : "What a reputable being.",
+  "novakidDescription" : "A trustworthy canine.",
+
+  "inventoryIcon" : "ianpostericon.png",
+  "orientations" : [
+    {
+      "image" : "ianposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

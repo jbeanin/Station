@@ -1,0 +1,65 @@
+{
+  "objectName" : "stationprinter",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingstationprinter.config",
+	"filter" : [ "station" ]
+  },
+  "price" : 2000,
+  "printable" : false,
+  "lightColor" : [23, 33, 38],
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+
+  "description" : "This machine can instantly fabricate a wide array of objects with the use of pixels.",
+  "shortdescription" : "^orange;Autolathe^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "An autholathe, a highly advanced piece of technology.",
+  "avianDescription" : "The autholathe... The first implementation of pixel printing.",
+  "floranDescription" : "Pretty machine make pretty thingss for Floran.",
+  "glitchDescription" : "In love. Such ingenuity is an art.",
+  "humanDescription" : "The autolathe... So many possibilities.",
+  "hylotlDescription" : "The power to fabricate anything at my fingertips.",
+  "novakidDescription" : "The autolathe is pretty fancy.",
+
+  "inventoryIcon" : "stationprintericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "stationprinter.png:<color>.<frame>", "fullbright" : true }, { "image" : "stationprinterlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+      
+      "lightPosition" : [0,1],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "stationprinter.png:<color>.<frame>", "fullbright" : true }, { "image" : "stationprinterlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+      
+      "lightPosition" : [0,1],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

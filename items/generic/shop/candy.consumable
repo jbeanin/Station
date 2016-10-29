@@ -1,0 +1,24 @@
+{
+  "itemName" : "candy",
+  "rarity" : "Common",
+  "price" : 15,
+  "category" : "food",
+  "inventoryIcon" : "candy.png",
+  "description" : "Nougat; love it or hate it.",
+  "shortdescription" : "Candy",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

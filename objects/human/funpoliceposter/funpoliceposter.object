@@ -1,0 +1,33 @@
+{
+  "objectName" : "funpoliceposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Fun Police Poster",
+  "description" : "A poster condemning the station's security forces.",
+  "race" : "human",
+
+  "apexDescription" : "Interesting, a police force dedicated to maintaining the levels of fun, reminds me of home.",
+  "avianDescription" : "The secuirty forces must have caused great upheavel with the stations crew.",
+  "floranDescription" : "Assssssissstantsss with gunsss!",
+  "glitchDescription" : "Sympathetic. The real criminals.",
+  "humanDescription" : "The truth is out.",
+  "hylotlDescription" : "What kind of fun did the stations security suppress to deserve this title?",
+  "novakidDescription" : "What was the stations security really doin'? A great mystery.",
+
+  "inventoryIcon" : "funpolicepostericon.png",
+  "orientations" : [
+    {
+      "image" : "funpoliceposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "missingposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Missing Gloves Poster",
+  "description" : "This poster is about the uproar that followed Nanotrasen's financial cuts towards insulated-glove purchases.",
+  "race" : "human",
+
+  "apexDescription" : "Eveyone wanted them, no one ever used them.",
+  "avianDescription" : "They don't look like rubber.",
+  "floranDescription" : "Glovesss to murder for.",
+  "glitchDescription" : "Envious. These gloves are worth their weight in gold.",
+  "humanDescription" : "If you ever get your hands on any don't wear them in public.",
+  "hylotlDescription" : "A most valued commodity.",
+  "novakidDescription" : "Fancy gloves fer' wimps!",
+
+  "inventoryIcon" : "missingpostericon.png",
+  "orientations" : [
+    {
+      "image" : "missingposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

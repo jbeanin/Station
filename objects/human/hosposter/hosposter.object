@@ -1,0 +1,33 @@
+{
+  "objectName" : "hosposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "HoS Portrait",
+  "description" : "This poster shows the Head of Shitcurity.",
+  "race" : "human",
+
+  "apexDescription" : "They would drag the worst to prisoner transfer, although I cannot think of a more secure place than permabrig.",
+  "avianDescription" : "The lesser evil.",
+  "floranDescription" : "Ssswamped with resssponsssibility.",
+  "glitchDescription" : "Appreciation. The clown's ultimate demise.",
+  "humanDescription" : "The greatest force against any enemies of the corporation.",
+  "hylotlDescription" : "A dishonorable leader.",
+  "novakidDescription" : "Dispite his sinister looks he kept th' station safe.",
+
+  "inventoryIcon" : "hospostericon.png",
+  "orientations" : [
+    {
+      "image" : "hosposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

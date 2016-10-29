@@ -1,0 +1,33 @@
+{
+  "objectName" : "clownposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Clown Poster",
+  "description" : "Honk.",
+  "race" : "human",
+
+  "apexDescription" : "That clown must have had a massive harem of bananas.",
+  "avianDescription" : "What a 'funny' person.",
+  "floranDescription" : "Sssmellsss of disssappointment.",
+  "glitchDescription" : "Pitiful. The bottom of the food chain.",
+  "humanDescription" : "Keep an eye out, if you see a clown remove it from the premises immediately!",
+  "hylotlDescription" : "A dishonorable occupation.",
+  "novakidDescription" : "Clowns n' space! We autta' have a rodeo!",
+
+  "inventoryIcon" : "clownpostericon.png",
+  "orientations" : [
+    {
+      "image" : "clownposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

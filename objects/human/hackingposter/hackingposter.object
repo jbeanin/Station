@@ -1,0 +1,33 @@
+{
+  "objectName" : "hackingposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Hacking Guide Poster",
+  "description" : "This poster details the internal workings of the common Nanotrasen airlock.",
+  "race" : "human",
+
+  "apexDescription" : "They could have just told the AI to open it, after all hacking it would have most likely caused human harm.",
+  "avianDescription" : "Instructions to suicide. Assuming you've come without insulated gloves.",
+  "floranDescription" : "I'd rather disssassssssemble a wall.",
+  "glitchDescription" : "Confused. Looks like jargon to me.",
+  "humanDescription" : "It's a right of passage to learn how to hack Nanotrasen security systems.",
+  "hylotlDescription" : "Why is this on a poster?",
+  "novakidDescription" : "'Requirements: Insulated gloves'. What's the fun in that?",
+
+  "inventoryIcon" : "hackingpostericon.png",
+  "orientations" : [
+    {
+      "image" : "hackingposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

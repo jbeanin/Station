@@ -1,0 +1,29 @@
+{
+  "itemName" : "hotcocoa",
+  "rarity" : "Common",
+  "price" : 140,
+  "category" : "drink",
+  "inventoryIcon" : "hotcocoa.png",
+  "description" : "Made in Space South America",
+  "shortdescription" : "Dutch Hot Coco",
+  "effects" : [ [
+	{
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 90
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 40
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

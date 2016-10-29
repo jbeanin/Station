@@ -1,0 +1,33 @@
+{
+  "objectName" : "xenoposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Lusty Xeno Poster",
+  "description" : "A heretical poster depicting the titular star of an equally heretical book.",
+  "race" : "human",
+
+  "apexDescription" : "One day while - oh wait. Alien Queen hisses: Certainly not, kind sir!",
+  "avianDescription" : "Profoundly lecherous.",
+  "floranDescription" : "A good bed time ssstory.",
+  "glitchDescription" : "Disgusted. A unhygienic choice in literature.",
+  "humanDescription" : "Seccond to Woody's got Wood.",
+  "hylotlDescription" : "One can find this title in the adult section.",
+  "novakidDescription" : "Who advertises this?",
+
+  "inventoryIcon" : "xenopostericon.png",
+  "orientations" : [
+    {
+      "image" : "xenoposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

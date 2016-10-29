@@ -1,0 +1,33 @@
+{
+  "objectName" : "syndicateposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Syndicate Recrt. Poster",
+  "description" : "See the galaxy! Shatter corrupt megacorporations! Join today!",
+  "race" : "human",
+
+  "apexDescription" : "If you worked for a company that wasn't Nanotrasen, you were most likely part of the Syndicate.",
+  "avianDescription" : "Spies, terrorists, assassins, and terrifying creatures beyond mortal comprehension; they had it all.",
+  "floranDescription" : "Fithty redsssuitsss!",
+  "glitchDescription" : "Horrified. They would not even leave cinders in thier wake.",
+  "humanDescription" : "A syndicate recruitment poster, surprised this poster has not been torn down the instant it went up, then the person who put it up ground into a fine paste for the crew to enjoy.",
+  "hylotlDescription" : "A conglomeration of rival corporations.",
+  "novakidDescription" : "When ye' see red, yer' dead.",
+
+  "inventoryIcon" : "syndicatepostericon.png",
+  "orientations" : [
+    {
+      "image" : "syndicateposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

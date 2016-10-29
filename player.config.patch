@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/121",
+    "value": {
+      "item": "stationprinter"
+    }
+  }
+]

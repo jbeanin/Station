@@ -1,0 +1,33 @@
+{
+  "objectName" : "smokeposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Smoke Poster",
+  "description" : "A poster depicting a carton of cigarettes.",
+  "race" : "human",
+
+  "apexDescription" : "Cigarettes? They still exist?",
+  "avianDescription" : "The real challenge is lighting it.",
+  "floranDescription" : "Never walk around the ssstation with it lit!",
+  "glitchDescription" : "Intrigued. Nicotine, tar, carbon monoxide... What is there not to desire?",
+  "humanDescription" : "Talk about forward marketing.",
+  "hylotlDescription" : "Not very subtle.",
+  "novakidDescription" : "Filled with the ingredients of novakin life!",
+
+  "inventoryIcon" : "smokepostericon.png",
+  "orientations" : [
+    {
+      "image" : "smokeposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

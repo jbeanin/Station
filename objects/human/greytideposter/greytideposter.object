@@ -1,0 +1,33 @@
+{
+  "objectName" : "greytideposter",
+  "rarity" : "Common",
+  "category" : "station",
+  "price" : 55,
+  "printable" : true,
+
+  "shortdescription" : "Grey Tide Poster",
+  "description" : "A rebellious poster symbolizing assistant solidarity.",
+  "race" : "human",
+
+  "apexDescription" : "Anarchic elements usually develop on the fringes of society, it's no different in space.",
+  "avianDescription" : "Warfaring nomads of the station.",
+  "floranDescription" : "GREY TIDE, SSSTATION WIDE!",
+  "glitchDescription" : "Appreciation. A force to be reckoned with.",
+  "humanDescription" : "The purest form of civil dissent.",
+  "hylotlDescription" : "They fought a fight to fight.",
+  "novakidDescription" : "Help, greysuits smashin' me winodws!",
+
+  "inventoryIcon" : "greytidepostericon.png",
+  "orientations" : [
+    {
+      "image" : "greytideposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

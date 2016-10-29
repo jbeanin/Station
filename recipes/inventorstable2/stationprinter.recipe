@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 5 },
+    { "item" : "glass", "count" : 5 },
+    { "item" : "goldbar", "count" : 1},
+	{ "item" : "copperbar", "count" : 5}
+  ],
+  "output" : {
+    "item" : "stationprinter",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable2", "craftingstations", "all" ]
+}

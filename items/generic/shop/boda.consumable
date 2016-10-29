@@ -1,0 +1,17 @@
+{
+  "itemName" : "boda",
+  "rarity" : "Uncommon",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "boda.png",
+  "description" : "A refreshing glass of boda.",
+  "shortdescription" : "Boda",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+      "effect" : "bottledwaterheal",
+      "duration" : 10
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

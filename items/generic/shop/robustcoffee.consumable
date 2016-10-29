@@ -1,0 +1,26 @@
+{
+  "itemName" : "robustcoffee",
+  "rarity" : "Common",
+  "price" : 115,
+  "category" : "drink",
+  "inventoryIcon" : "robustcoffee.png",
+  "description" : "Careful, the beverage you're about to enjoy is extremely hot.",
+  "shortdescription" : "Robust Coffee",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 135
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "flatwhite" ]
+}
