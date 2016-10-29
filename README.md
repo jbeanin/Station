@@ -3,7 +3,7 @@ A SS13 themed mod for Starbound.
 Created by Dr. Rump PhD & Wai Scrunger.
 Based on the game Space Station 13.
 
-Licensed under GPL v3.0.
+This mod is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 # Install Instructions
 1 - Find the latest release and download the .pak.
