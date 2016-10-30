@@ -9,7 +9,7 @@
   "shortdescription" : "Bike Horn",
   "largeImage" : "bikehorn.png",
   "image" : "bikehorn.png",
-  "tooltipKind" : "tool",
+  "tooltipKind" : "Tool",
   "activeImage" : "bikehorn.png",
   "activeAngle" : 0,
   "activeHandPosition" : [-0.05, 0],

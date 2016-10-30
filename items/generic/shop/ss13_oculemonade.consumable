@@ -1,0 +1,17 @@
+{
+  "itemName" : "ss13_oculemonade",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "ss13_oculemonade.png",
+  "description" : "Blows right through you like a space wind.",
+  "shortdescription" : "Space Mountain Wind",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

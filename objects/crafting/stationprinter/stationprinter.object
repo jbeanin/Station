@@ -20,7 +20,7 @@
   "description" : "This machine can instantly fabricate a wide array of objects with the use of pixels.",
   "shortdescription" : "^orange;Autolathe^white;",
   "race" : "generic",
-  "category" : "crafting",
+  "category" : "Crafting Station",
 
   "apexDescription" : "An autholathe, a highly advanced piece of technology.",
   "avianDescription" : "The autholathe... The first implementation of pixel printing.",

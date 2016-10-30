@@ -1,0 +1,103 @@
+{
+  "objectName" : "ss13_junkfood",
+  "colonyTags" : ["human","humanbunker","commerce"],
+  "rarity" : "Common",
+  "description" : "Quick snacks to fill up your belly!",
+  "shortdescription" : "Getmore Chocolate Corp",
+  "race" : "human",
+  "category" : "Decorative",
+  "price" : 108,
+  "lightColor" : [209, 33, 16],
+  "printable" : true,
+
+  "apexDescription" : "Getmore Chocolate Corp. Wonder if they still restock their machines.",
+  "avianDescription" : "Despite it's name, there's no chocolate.",
+  "floranDescription" : "Sssnacksss!",
+  "glitchDescription" : "Concerned. This stuff is safe to eat, right?",
+  "humanDescription" : "A bunch of junk food, incomparable to the chef's cooking but what can you do in today's economy.",
+  "hylotlDescription" : "All the available goods look incredibly old.",
+  "novakidDescription" : "A vendin' machine full of sweet treats!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Junkfood Vending Machine",
+        "subtitle" : " From Getmore Chocolate Corp."
+      }
+    },
+    "buyFactor" : 2.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "ss13_candy" },
+	  { "item" : "ss13_ramen" },
+	  { "item" : "ss13_chips" },
+	  { "item" : "ss13_jerky" },
+	  { "item" : "ss13_raisins" },
+	  { "item" : "ss13_twinkie" },
+	  { "item" : "ss13_honkers" },
+	  { "item" : "ss13_syndicake" }
+    ]
+  },
+
+  "inventoryIcon" : "ss13_junkfoodicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ss13_junkfoodleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "ss13_junkfoodleftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "ss13_junkfoodright.png:<color>.<frame>", "fullbright" : true }, { "image" : "ss13_junkfoodrightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}
+

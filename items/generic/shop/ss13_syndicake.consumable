@@ -1,0 +1,32 @@
+{
+  "itemName" : "ss13_syndicake",
+  "rarity" : "Uncommon",
+  "price" : 55,
+  "category" : "food",
+  "inventoryIcon" : "ss13_syndicake.png",
+  "description" : "It's expired.",
+  "shortdescription" : "Syndi-Cake",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 45
+    },
+	{
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 25
+    },
+	{
+        "effect" : "runboostfood",
+        "duration" : 10
+    }
+  ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

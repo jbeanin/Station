@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 212 }
-  ],
-  "output" : { "item" : "bodamachine", "count" : 1 },
-  "groups" : [ "station" ]
-}

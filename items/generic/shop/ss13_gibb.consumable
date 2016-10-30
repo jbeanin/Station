@@ -1,0 +1,17 @@
+{
+  "itemName" : "ss13_gibb",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "ss13_gibb.png",
+  "description" : "A delicious mixture of 42 different flavors.",
+  "shortdescription" : "Dr. Gibb",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

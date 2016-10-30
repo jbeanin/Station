@@ -1,0 +1,17 @@
+{
+  "itemName" : "ss13_soda",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "ss13_soda.png",
+  "description" : "Cola. in space.",
+  "shortdescription" : "Space Cola",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

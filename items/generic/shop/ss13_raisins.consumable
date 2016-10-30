@@ -1,0 +1,18 @@
+{
+  "itemName" : "ss13_raisins",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "inventoryIcon" : "ss13_raisins.png",
+  "description" : "Best raisins in the universe. Not sure why.",
+  "shortdescription" : "4no Raisins",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

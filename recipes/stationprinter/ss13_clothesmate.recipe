@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 120 }
+  ],
+  "output" : { "item" : "ss13_clothesmate", "count" : 1 },
+  "groups" : [ "station" ]
+}

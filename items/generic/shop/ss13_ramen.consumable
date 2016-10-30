@@ -1,0 +1,24 @@
+{
+  "itemName" : "ss13_ramen",
+  "rarity" : "Common",
+  "price" : 30,
+  "category" : "food",
+  "inventoryIcon" : "ss13_ramen.png",
+  "description" : "A taste that reminds you of your school years.",
+  "shortdescription" : "Cup Ramen",
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

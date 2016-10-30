@@ -1,0 +1,96 @@
+{
+  "objectName" : "ss13_bodamachine",
+  "colonyTags" : ["human","humanbunker","commerce"],
+  "rarity" : "Rare",
+  "description" : "Boda is good. It is good for me.",
+  "shortdescription" : "Boda Machine",
+  "race" : "human",
+  "category" : "Decorative",
+  "price" : 848,
+  "lightColor" : [116, 106, 162],
+  "printable" : true,
+
+  "apexDescription" : "A rare boda machine! Surprised the soda water is not flat by now.",
+  "avianDescription" : "The most tangible expression of refreshment.",
+  "floranDescription" : "Blue machine gives Floran water.",
+  "glitchDescription" : "Decisive. I shall get some soda water.",
+  "humanDescription" : "An ancient relic from the third Soviet Union on Earth.",
+  "hylotlDescription" : "A vending machine for carbonated water. It will have to do.",
+  "novakidDescription" : "A ol' vendin' machine for fizzy water.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Boda Machine",
+        "subtitle" : " Boda is Good"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "ss13_boda" }
+    ]
+  },
+
+  "inventoryIcon" : "ss13_bodamachineicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ss13_bodamachineleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "ss13_bodamachineleftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "ss13_bodamachineright.png:<color>.<frame>", "fullbright" : true }, { "image" : "ss13_bodamachinerightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}
+

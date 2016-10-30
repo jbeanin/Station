@@ -1,0 +1,21 @@
+{
+  "itemName" : "ss13_loko",
+  "rarity" : "Uncommon",
+  "price" : 80,
+  "category" : "drink",
+  "inventoryIcon" : "ss13_loko.png",
+  "description" : "Banned in 5 space-states!",
+  "shortdescription" : "Thirteen Loko",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 10
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 75
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}
