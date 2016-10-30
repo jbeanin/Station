@@ -1,6 +1,6 @@
 {
   "itemName" : "greytidechest",
-  "price" : 2500
+  "price" : 2500,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Uncommon",
