@@ -1,0 +1,19 @@
+{
+  "itemName" : "bikehorn",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "bikehorn.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A clown's bikehorn.",
+  "shortdescription" : "Honk.",
+  "largeImage" : "bikehorn.png",
+  "image" : "bikehorn.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "bikehorn.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, 0.275],
+  "handPosition" : [0, 0],
+  "twoHanded" : false,
+  "kind" : "bikehorn"
+}
