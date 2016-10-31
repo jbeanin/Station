@@ -10,13 +10,13 @@
   "lightColor" : [15, 210, 83],
   "printable" : true,
 
-  "apexDescription" : "Getmore Chocolate Corp. Wonder if they still restock their machines.",
-  "avianDescription" : "Despite it's name, there's no chocolate.",
-  "floranDescription" : "Sssnacksss!",
-  "glitchDescription" : "Concerned. This stuff is safe to eat, right?",
-  "humanDescription" : "A bunch of junk food, incomparable to the chef's cooking but what can you do in today's economy.",
-  "hylotlDescription" : "All the available goods look incredibly old.",
-  "novakidDescription" : "A vendin' machine full of sweet treats!",
+  "apexDescription" : "Quality garments for all races.",
+  "avianDescription" : "Looks like it's out of clown costumes...",
+  "floranDescription" : "Clothessss!",
+  "glitchDescription" : "Concerned. It only has small sizes left.",
+  "humanDescription" : "These are some nice duds.",
+  "hylotlDescription" : "Featuring anti-mothball technology.",
+  "novakidDescription" : "Just pick your size and away you go.",
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {
@@ -31,7 +31,8 @@
     "sellFactor" : 0.2,
     "items" : [
       { "item" : "ss13_assistant_chest" },
-	  { "item" : "ss13_assistant_legs" }
+	  { "item" : "ss13_assistant_legs" },
+	  { "item" : "ss13_assistant_head" }
     ]
   },
 

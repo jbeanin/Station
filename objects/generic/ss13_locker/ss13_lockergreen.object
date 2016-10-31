@@ -1,0 +1,41 @@
+{
+  "objectName" : "ss13_lockergreen",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 50,
+  "description" : "A locker for storing plants and tools.",
+  "shortdescription" : "Station Locker (H)",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A hydroponics storage locker.",
+  "avianDescription" : "A metal box built for storage of plant cultivation tools.",
+  "floranDescription" : "Ssstorage.",
+  "glitchDescription" : "Neutral. A tall space for storage of tools.",
+  "humanDescription" : "I don't see any lock...",
+  "hylotlDescription" : "Useful for storage.",
+  "novakidDescription" : "This locker doesn't actually lock. Huh.",
+
+  "inventoryIcon" : "ss13_lockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ss13_locker.png:green.<key>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

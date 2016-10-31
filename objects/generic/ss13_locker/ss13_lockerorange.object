@@ -1,0 +1,41 @@
+{
+  "objectName" : "ss13_lockerorange",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 50,
+  "description" : "A fortified locker for tool storage.",
+  "shortdescription" : "Station Locker (EL)",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A utility storage locker.",
+  "avianDescription" : "A metal box built for storage of goods.",
+  "floranDescription" : "Ssstorage.",
+  "glitchDescription" : "Neutral. A tall space for tool storage.",
+  "humanDescription" : "Hey this one has a lock!",
+  "hylotlDescription" : "Useful for storage.",
+  "novakidDescription" : "Now that is one fancy lock.",
+
+  "inventoryIcon" : "ss13_lockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ss13_locker.png:orange.<key>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

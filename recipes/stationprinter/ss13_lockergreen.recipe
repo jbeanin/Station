@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 50 }
+  ],
+  "output" : { "item" : "ss13_lockergreen", "count" : 1 },
+  "groups" : [ "station" ]
+}

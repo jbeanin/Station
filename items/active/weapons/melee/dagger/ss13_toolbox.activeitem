@@ -1,0 +1,76 @@
+{
+  "itemName" : "ss13_toolbox",
+  "price" : 150,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Very robust.",
+  "shortdescription" : "Toolbox",
+  "category" : "Tool",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+  "inventoryIcon" : "ss13_toolboxicon.png",
+
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "ss13_toolbox.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/timepierce_swing1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0.0,
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : 0.50,
+    "baseDps" : 10.0,
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 20,
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "windup" : {
+        "duration" : 0.15,
+        "armRotation" : -20,
+        "weaponRotation" : -20,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -135,
+        "weaponRotation" : 40,
+        "weaponOffset" : [0, 2.5],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/timepierce_swing1.ogg" ],
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,64 @@
+{
+  "objectName" : "ss13_tool",
+  "colonyTags" : ["human","humanbunker","commerce"],
+  "rarity" : "Common",
+  "description" : "Your one stop shop for tools and utilities.",
+  "shortdescription" : "YouTool Machine",
+  "race" : "human",
+  "category" : "Decorative",
+  "price" : 150,
+  "lightColor" : [231, 191, 22],
+  "printable" : true,
+
+  "apexDescription" : "YouTool brand, the best reseller in the business.",
+  "avianDescription" : "These implements feature incredibly robust construction.",
+  "floranDescription" : "Toolsssss!",
+  "glitchDescription" : "Concerned. These don't look safe.",
+  "humanDescription" : "Toolboxes and toolbox accessories.",
+  "hylotlDescription" : "A wide variety of useful tools.",
+  "novakidDescription" : "A vendin' machine that don't serve food. Hmmm.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " YouTool Machine",
+        "subtitle" : " Purchase tools and utilities."
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "ss13_toolbox" }
+    ]
+  },
+
+  "inventoryIcon" : "ss13_toolicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ss13_toolleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "ss13_toolleftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "ss13_toolright.png:<color>.<frame>", "fullbright" : true }, { "image" : "ss13_toolrightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+}
+
