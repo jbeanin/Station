@@ -20,7 +20,7 @@
   "hylotlDescription" : "Useful for storage.",
   "novakidDescription" : "Now that is one fancy lock.",
 
-  "inventoryIcon" : "ss13_lockericon.png",
+  "inventoryIcon" : "ss13_el_lockericon.png",
   "orientations" : [
     {
       "dualImage" : "ss13_locker.png:orange.<key>",
