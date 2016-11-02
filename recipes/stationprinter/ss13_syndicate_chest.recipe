@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 3200 }
+  ],
+  "output" : { "item" : "ss13_syndicate_chest", "count" : 1 },
+  "groups" : [ "station" ]
+}
