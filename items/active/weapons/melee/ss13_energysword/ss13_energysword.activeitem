@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "ss13_energyswordicon.png",
 
-  "animation" : "/items/active/weapons/melee/shortsword/energyshortsword.animation",
+  "animation" : "/items/active/weapons/melee/shortsword/ss13_energyshortsword.animation",
   "animationParts" : {
     "handle": "handle.png",
     "blade" : "blade.png"

@@ -1,0 +1,21 @@
+{
+  "kind" : "ss13_energyblade",
+  "definition" : {
+    "type" : "ember",
+    "size" : 1,
+    "color" : [255, 80, 80],
+    "light" : [120, 30, 30],
+    "position" : [0, 0],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+    "fade" : 1,
+    "layer" : "middle",
+    "fullbright" : true,
+    "timeToLive" : 0.15,
+    "variance" : {
+      "initialVelocity" : [1.5, 1.5],
+      "size" : 0.3,
+      "position" : [0, 0]
+    }
+  }
+}
