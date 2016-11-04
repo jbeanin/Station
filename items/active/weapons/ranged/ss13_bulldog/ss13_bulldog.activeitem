@@ -2,7 +2,7 @@
   "itemName" : "ss13_bulldog",
   "price" : 960,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "A powerful semi-auto shotgun used by the Syndicate.",
   "shortdescription" : "Bulldog Shotgun",
   "tooltipKind" : "gun",
@@ -22,7 +22,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/shotgun1.ogg"]
+      "fire" : ["/sfx/gun/ss13_gunshot.ogg"]
     }
   },
 
