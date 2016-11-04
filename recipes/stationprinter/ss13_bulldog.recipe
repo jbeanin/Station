@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 960 }
+  ],
+  "output" : { "item" : "ss13_bulldog", "count" : 1 },
+  "groups" : [ "station" ]
+}
