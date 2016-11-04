@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 800 }
+  ],
+  "output" : { "item" : "ss13_energyshield", "count" : 1 },
+  "groups" : [ "station" ]
+}
