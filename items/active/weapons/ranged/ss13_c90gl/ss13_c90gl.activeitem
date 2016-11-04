@@ -22,7 +22,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/ar4.ogg"]
+      "fire" : ["/sfx/gun/ar3.ogg"]
     }
   },
 
@@ -68,7 +68,7 @@
         "allowFlip" : false
       },
       "cooldown" : {
-        "duration" : 0.11,
+        "duration" : 0.10,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : true,

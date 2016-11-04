@@ -1,33 +1,33 @@
 {
-  "itemName" : "ss13_c20r",
-  "price" : 960,
+  "itemName" : "ss13_l6saw",
+  "price" : 2200,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "description" : "A powerful SMG wielded only by the most advanced Syndicate operatives.",
-  "shortdescription" : "C20r Submachine gun",
+  "rarity" : "Rare",
+  "description" : "Just a huge fuckin' gun.",
+  "shortdescription" : "L6 SAW",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "level" : 1,
+  "level" : 5,
 
-  "inventoryIcon" : "ss13_c20r.png",
+  "inventoryIcon" : "ss13_l6saw.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "ss13_c20r.png",
+    "middle" : "ss13_l6saw.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/uzi1.ogg"]
+      "fire" : ["/sfx/gun/ar4.ogg"]
     }
   },
 
-  "baseOffset" : [0.4, 0],
-  "muzzleOffset" : [2.0, 0.2],
+  "baseOffset" : [0.85, 0.15],
+  "muzzleOffset" : [2.0, 0.25],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -37,17 +37,17 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.05,
-    "baseDps" : 12.0,
-    "energyUsage" : 28.0,
-    "inaccuracy" : 0.035,
+    "fireTime" : 0.07,
+    "baseDps" : 18.0,
+    "energyUsage" : 30.0,
+    "inaccuracy" : 0.04,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
     "projectileType" : "standardbullet",
     "projectileParameters" : {
-      "knockback" : 3
+      "knockback" : 10
     },
     "stances" : {
       "idle" : {
@@ -68,7 +68,7 @@
         "allowFlip" : false
       },
       "cooldown" : {
-        "duration" : 0.05,
+        "duration" : 0.07,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : true,

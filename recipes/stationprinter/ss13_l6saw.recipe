@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2200 }
+  ],
+  "output" : { "item" : "ss13_l6saw", "count" : 1 },
+  "groups" : [ "station" ]
+}
