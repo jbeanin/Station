@@ -1,33 +1,33 @@
 {
-  "itemName" : "ss13_c20r",
-  "price" : 960,
+  "itemName" : "ss13_c90gl",
+  "price" : 1920,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "description" : "A powerful SMG wielded only by the most advanced Syndicate operatives.",
-  "shortdescription" : "C20r Submachine gun",
+  "rarity" : "Rare",
+  "description" : "An incredibly lethal assault rifle for top of the line operatives.",
+  "shortdescription" : "C90 Assault Rifle",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "level" : 1,
+  "level" : 4,
 
-  "inventoryIcon" : "ss13_c20r.png",
+  "inventoryIcon" : "ss13_c90gl.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "ss13_c20r.png",
+    "middle" : "ss13_c90gl.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/uzi1.ogg"]
+      "fire" : ["/sfx/gun/ar4.ogg"]
     }
   },
 
-  "baseOffset" : [0.4, 0],
-  "muzzleOffset" : [2.0, 0.2],
+  "baseOffset" : [0.2, 0.17],
+  "muzzleOffset" : [2.0, 0.10],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -37,10 +37,10 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.07,
-    "baseDps" : 10.5,
-    "energyUsage" : 30.0,
-    "inaccuracy" : 0.035,
+    "fireTime" : 0.10,
+    "baseDps" : 20.0,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.022,
 
     "projectileCount" : 1,
     "fireType" : "auto",
@@ -78,6 +78,8 @@
       }
     }
   },
+
+  "altAbilityType" : "grenadelauncher",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
