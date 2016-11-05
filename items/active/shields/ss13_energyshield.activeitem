@@ -19,7 +19,7 @@
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
-        "shieldPoly" : [ [-0.5, -2.5], [-0.5, 2.25], [0.75, 1.5], [0.75, -1.75] ]
+        "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ]
     }}}},
     "sounds" : {
       "raiseShield" : [ "/sfx/tools/energypickaxe_start.ogg" ],
@@ -35,7 +35,7 @@
 
   "forceWalk" : true,
   "baseShieldHealth" : 85,
-  "cooldownTime" : 1.0,
+  "cooldownTime" : 0.5,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.2,
