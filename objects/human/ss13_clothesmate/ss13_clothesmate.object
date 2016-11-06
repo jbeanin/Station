@@ -32,7 +32,11 @@
     "items" : [
       { "item" : "ss13_assistant_chest" },
 	  { "item" : "ss13_assistant_legs" },
-	  { "item" : "ss13_assistant_head" }
+	  { "item" : "ss13_assistant_head" },
+	  { "item" : "ss13_clown_chest" },
+	  { "item" : "ss13_clown_legs" },
+	  { "item" : "ss13_clown_back" },
+	  { "item" : "ss13_clown_head" }
     ]
   },
 
