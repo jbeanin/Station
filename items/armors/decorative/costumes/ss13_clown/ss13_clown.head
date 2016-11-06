@@ -3,7 +3,10 @@
   "price" : 2500,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
+  "rarity" : "Legendary",
   "category" : "headwear",
+  "description" : "A clown's mask. Behind it's placid smile a lifetime of regrets.",
+  "shortdescription" : "Clown Mask",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
