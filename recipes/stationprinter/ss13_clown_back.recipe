@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2500 }
+  ],
+  "output" : { "item" : "ss13_clown_back", "count" : 1 },
+  "groups" : [ "station" ]
+}
