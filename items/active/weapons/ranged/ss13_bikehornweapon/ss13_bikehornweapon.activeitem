@@ -5,11 +5,11 @@
   "rarity" : "Common",
   "description" : "A clown's bike horn.",
   "shortdescription" : "Bike Horn",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "tool",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol"],
-  "level" : 2,
+  "level" : 1,
 
   "inventoryIcon" : "ss13_bikehornweapon.png",
 
@@ -18,7 +18,7 @@
     "butt" : "",
     "middle" : "ss13_bikehornweapon.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
@@ -37,17 +37,17 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.35,
-    "baseDps" : 7.0,
-    "energyUsage" : 18.75,
-    "inaccuracy" : 0.025,
+    "fireTime" : 0.4,
+    "baseDps" : 0.0,
+    "energyUsage" : 0.0,
+    "inaccuracy" : 0.0,
 
-    "projectileCount" : 1,
+    "projectileCount" : 0,
     "fireType" : "auto",
 
     "projectileType" : "standardbullet",
     "projectileParameters" : {
-      "knockback" : 8
+      "knockback" : 0
     },
     "stances" : {
       "idle" : {
@@ -59,7 +59,7 @@
         "allowFlip" : true
       },
       "fire" : {
-        "duration" : 0,
+        "duration" : 0.0,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
@@ -68,7 +68,7 @@
         "allowFlip" : false
       },
       "cooldown" : {
-        "duration" : 0.15,
+        "duration" : 0.25,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
