@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/honkhorn",
+    "value": {
+      "animationCustom": {
+        "sounds": {
+          "horn": [
+            "/sfx/tech/mech_horn_honkhorn.ogg"
+          ]
+        }
+      }
+    }
+  }
+]

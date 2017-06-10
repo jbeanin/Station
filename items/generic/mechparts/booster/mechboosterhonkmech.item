@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechboosterhonkmech",
+  "price" : 6720,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbooster",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechboosterhonkmech.png",
+  "description" : "A set of large boosters, which trade speed for greater control.",
+  "shortdescription" : "H.O.N.K. Mech Booster",
+  "itemTags" : [ ],
+
+  "mechPart" : ["booster", "honkmech"]
+}

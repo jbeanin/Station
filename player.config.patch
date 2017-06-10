@@ -5,5 +5,40 @@
     "value": {
       "item": "stationprinter"
     }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/122",
+    "value": {
+      "item": "mechbodyhonkmech"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/123",
+    "value": {
+      "item": "mechlegshonkmech"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/124",
+    "value": {
+      "item": "mechboosterhonkmech"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/125",
+    "value": {
+      "item": "mechlegshonkmech"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/126",
+    "value": {
+      "item": "mechhornhonkmech"
+    }
   }
 ]

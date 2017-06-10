@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/honkmech",
+    "value": {
+      "stats": {
+        "energy": 8,
+        "protection": 6
+      },
+      "partParameters": {},
+      "partImages": {
+        "bodyBack": "body/honkmech_back.png",
+        "bodyFront": "body/honkmech_front.png",
+        "bodyFullbright": "body/honkmech_fullbright.png"
+      },
+      "defaultPrimaryColors": [
+        "b5b5b5",
+        "808080",
+        "555555",
+        "303030"
+      ],
+      "defaultSecondaryColors": [
+        "c36a5f",
+        "994c49",
+        "6f3130",
+        "551d28"
+      ],
+      "animationCustom": {
+        "animatedParts": {
+          "parts": {
+            "bodyFront": {
+              "properties": {
+                "sitPosition": [
+                  0.3,
+                  0.4
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
