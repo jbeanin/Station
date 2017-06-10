@@ -1,0 +1,19 @@
+{
+  "itemName" : "ss13_musicalbutt",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "ss13_musicalbutt.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A severed human butt equiped with a rapid fart apperatus.",
+  "shortdescription" : "Musical Butt",
+  "largeImage" : "ss13_musicalbutt.png",
+  "image" : "ss13_musicalbutt.png",
+  "tooltipKind" : "Tool",
+  "activeImage" : "ss13_musicalbutt.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [-0.05, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : false,
+  "kind" : "ss13_musicalbutt"
+}

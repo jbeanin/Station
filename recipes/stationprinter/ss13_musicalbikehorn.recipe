@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "money", "count" : 3000 }
   ],
-  "output" : { "item" : "bikehorn", "count" : 1 },
+  "output" : { "item" : "ss13_musicalbikehorn", "count" : 1 },
   "groups" : [ "station" ]
 }

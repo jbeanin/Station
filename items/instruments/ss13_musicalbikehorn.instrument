@@ -1,19 +1,19 @@
 {
-  "itemName" : "bikehorn",
+  "itemName" : "ss13_musicalbikehorn",
   "price" : 3000,
   "category" : "musicalInstrument",
-  "inventoryIcon" : "bikehorn.png",
+  "inventoryIcon" : "ss13_musicalbikehorn.png",
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "This once normal bike horn has been equipped with a highly sophisticated sound synthesizer.",
   "shortdescription" : "Musical Bike Horn",
-  "largeImage" : "bikehorn.png",
-  "image" : "bikehorn.png",
+  "largeImage" : "ss13_musicalbikehorn.png",
+  "image" : "ss13_musicalbikehorn.png",
   "tooltipKind" : "Tool",
-  "activeImage" : "bikehorn.png",
+  "activeImage" : "ss13_musicalbikehorn.png",
   "activeAngle" : 0,
   "activeHandPosition" : [-0.05, 0],
   "handPosition" : [0, 0],
   "twoHanded" : false,
-  "kind" : "bikehorn"
+  "kind" : "ss13_musicalbikehorn"
 }

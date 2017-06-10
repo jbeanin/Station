@@ -1,29 +1,29 @@
 {
-  "itemName" : "ss13_bikehornweapon",
+  "itemName" : "ss13_buttweapon",
   "price" : 715,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A clown's bike horn.",
-  "shortdescription" : "Bike Horn",
+  "description" : "A severed human butt that emits lovely sounds when squeezed.",
+  "shortdescription" : "Butt",
   "tooltipKind" : "tool",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol"],
   "level" : 1,
 
-  "inventoryIcon" : "ss13_bikehornweapon.png",
-  "largeImage" : "ss13_bikehornweapon.png",
+  "inventoryIcon" : "ss13_buttweapon.png",
+  "largeImage" : "ss13_buttweapon.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "ss13_bikehornweapon.png",
+    "middle" : "ss13_buttweapon.png",
     "barrel" : "",
     "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/ss13_bikehornweapon.ogg"]
+      "fire" : ["/sfx/gun/ss13_buttweapon.ogg"]
     }
   },
 
