@@ -1,12 +1,12 @@
 {
   "itemName" : "mechhornhonkmech",
-  "price" : 2500,
+  "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "mechPart",
   "inventoryIcon" : "mechhornhonkmech.png",
-  "description" : "Honk!!!",
-  "shortdescription" : "H.O.N.K. Mech Horn",
+  "description" : "An earshattering death-horn for use with the H.O.N.K. mech.",
+  "shortdescription" : "HONKER BLAST 5000",
   "itemTags" : [ ],
 
   "mechPart" : ["horn", "honkhorn"]

@@ -1,13 +1,13 @@
 {
   "itemName" : "mechbodyhonkmech",
-  "price" : 9600,
+  "price" : 10000,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "category" : "mechPart",
   "tooltipKind" : "mechbody",
   "builder" : "/items/buildscripts/buildmechpart.lua",
   "inventoryIcon" : "mechbodyhonkmech.png",
-  "description" : "A sturdy mech body, originally designed by the Letheia corporation.",
+  "description" : "A meticulously designed chassis for use with the H.O.N.K. system.",
   "shortdescription" : "H.O.N.K Mech Body",
   "itemTags" : [ ],
 

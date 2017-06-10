@@ -1,13 +1,13 @@
 {
   "itemName" : "mechboosterhonkmech",
-  "price" : 6720,
+  "price" : 7000,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "category" : "mechPart",
   "tooltipKind" : "mechbooster",
   "builder" : "/items/buildscripts/buildmechpart.lua",
   "inventoryIcon" : "mechboosterhonkmech.png",
-  "description" : "A set of large boosters, which trade speed for greater control.",
+  "description" : "A pair of powerful booster jets.",
   "shortdescription" : "H.O.N.K. Mech Booster",
   "itemTags" : [ ],
 

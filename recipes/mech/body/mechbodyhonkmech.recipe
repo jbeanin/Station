@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "mechbodyhonkmech", "count" : 1 },
-  "groups" : [ "craftingmech", "mechbody", "station" ]
+  "groups" : [ "craftingmech", "mechbody" ]
 }

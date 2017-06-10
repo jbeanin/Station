@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 1 }
+    { "item" : "titaniumbar", "count" : 5 }
   ],
   "duration" : 5,
   "output" : { "item" : "mechhornhonkmech", "count" : 1 },
-  "groups" : [ "craftingmech", "mechbooster" ]
+  "groups" : [ "station" ]
 }

@@ -1,13 +1,13 @@
 {
   "itemName" : "mechlegshonkmech",
-  "price" : 3840,
+  "price" : 4000,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "category" : "mechPart",
   "tooltipKind" : "mechlegs",
   "builder" : "/items/buildscripts/buildmechpart.lua",
   "inventoryIcon" : "mechlegshonkmech.png",
-  "description" : "Sleek mech legs that pair composite socks with titanium sandals.",
+  "description" : "A set of giant metal clown shoes for rapid movement.",
   "shortdescription" : "H.O.N.K. Mech Legs",
   "itemTags" : [ ],
 
